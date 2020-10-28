@@ -11,7 +11,7 @@ always @ (posedge clk)
 begin
 
 led<=led + 1;
-
+led<=led + 2;
 end
 
 endmodule
