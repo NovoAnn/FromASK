@@ -1,0 +1,42 @@
+
+# project and device settings
+set_global_assignment -name DEVICE                    EPM240T100C5
+set_global_assignment -name FAMILY                    "MAX II"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY  .
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR "-1"
+set_global_assignment -name POWER_EXT_SUPPLY_VOLTAGE_TO_REGULATOR 3.3V
+
+# project files
+source ../run/script_quartus.tcl
+
+# I/O ports settings
+
+set_location_assignment PIN_12 -to clk
+
+set_location_assignment PIN_75 -to dip[7]
+set_location_assignment PIN_69 -to dip[1]
+set_location_assignment PIN_70 -to dip[2]
+set_location_assignment PIN_71 -to dip[3]
+set_location_assignment PIN_72 -to dip[4]
+set_location_assignment PIN_73 -to dip[5]
+set_location_assignment PIN_74 -to dip[6]
+set_location_assignment PIN_68 -to dip[0]
+
+set_location_assignment PIN_3 -to led[0]
+set_location_assignment PIN_4 -to led[1]
+set_location_assignment PIN_5 -to led[2]
+set_location_assignment PIN_6 -to led[3]
+set_location_assignment PIN_7 -to led[4]
+set_location_assignment PIN_8 -to led[5]
+set_location_assignment PIN_15 -to led[6]
+set_location_assignment PIN_16 -to led[7]
+set_location_assignment PIN_17 -to led[8]
+set_location_assignment PIN_18 -to led[9]
+set_location_assignment PIN_19 -to led[10]
+set_location_assignment PIN_20 -to led[11]
+set_location_assignment PIN_21 -to led[12]
+set_location_assignment PIN_26 -to led[13]
+set_location_assignment PIN_27 -to led[14]
+set_location_assignment PIN_28 -to led[15]

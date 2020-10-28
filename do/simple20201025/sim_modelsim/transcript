@@ -1,0 +1,31 @@
+# do C:/Users/kazmi/Documents/FPGAprojects/ask_my/do/simple20201025/run/script_modelsim.tcl
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:09:11 on Oct 28,2020
+# vlog -reportprogress 300 ../rtl/comb_simple.v 
+# -- Compiling module comb_simple
+# 
+# Top level modules:
+# 	comb_simple
+# End time: 22:09:11 on Oct 28,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:09:11 on Oct 28,2020
+# vlog -reportprogress 300 -sv ../tb/testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 22:09:11 on Oct 28,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -novopt work.testbench 
+# Start time: 22:09:12 on Oct 28,2020
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.comb_simple
+# ** Note: $finish    : ../tb/testbench.sv(36)
+#    Time: 300 ns  Iteration: 0  Instance: /testbench
+# Break in Module testbench at ../tb/testbench.sv line 36
+# 0 ns
+# 315 ns
+# End time: 22:09:23 on Oct 28,2020, Elapsed time: 0:00:11
+# Errors: 0, Warnings: 0
